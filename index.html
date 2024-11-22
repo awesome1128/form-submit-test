@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Form Submit</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+<div class="container">
+    <form id='form' method="POST" action="server.php">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email">
+    
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+        <label for="favourite">Favourite Platform</label>
+        <input type="text" id="favourite" name="favourite" placeholder="Enter favourite platform">
+
+        <input type="submit" value="Submit">
+    </form>
+    <div id="output"></div>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
